@@ -13,11 +13,11 @@ html{
 }
 
 #section1{
-    display: none;
+    display: block;
 }
 
 #section2{
-    display: block;
+    display: none;
 }
 
 #section3{
