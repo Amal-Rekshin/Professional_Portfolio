@@ -6,17 +6,18 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
 html{
     background-color: rgb(0, 0, 15);
     color: white;
 }
 
 #section1{
-    display: block;
+    display: none;
 }
 
 #section2{
-    display: none;
+    display: block;
 }
 
 #section3{
@@ -213,8 +214,36 @@ section{
     -webkit-appearance: none;
     height: 8px;
     border-radius: 5px;
-    background: linear-gradient(to right, var(--color-pri) 70%, #ddd 30%);
+    /* background: linear-gradient(to right, var(--color-pri) 70%, #ddd 30%); */
     pointer-events: none;
+}
+
+.bar1{
+        background: linear-gradient(to right, var(--color-pri) 90%, #ddd 30%);
+}
+
+.bar2{
+        background: linear-gradient(to right, var(--color-pri) 85%, #ddd 30%);
+}
+
+.bar3{
+        background: linear-gradient(to right, var(--color-pri) 70%, #ddd 30%);
+}
+
+.bar4{
+        background: linear-gradient(to right, var(--color-pri) 55%, #ddd 30%);
+}
+
+.bar5{
+        background: linear-gradient(to right, var(--color-pri) 80%, #ddd 30%);
+}
+
+.bar6{
+        background: linear-gradient(to right, var(--color-pri) 75%, #ddd 30%);
+}
+
+.bar7{
+        background: linear-gradient(to right, var(--color-pri) 40%, #ddd 30%);
 }
 
 .value-bar::-webkit-slider-thumb {
