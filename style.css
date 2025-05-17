@@ -46,6 +46,7 @@ html{
     height: 100vh;
     background-color: rgb(20, 20, 28);
     position: fixed;
+    z-index: 2;
 }
 
 .SideBar h1{
