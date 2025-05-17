@@ -81,7 +81,7 @@ section{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    margin-left:30%;
+    padding-left: 30%;
 }
 
 .hero{
