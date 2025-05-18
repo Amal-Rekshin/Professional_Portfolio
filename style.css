@@ -6,32 +6,49 @@
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
 }
+
 html{
     background-color: rgb(0, 0, 15);
     color: white;
     position: relative;
+    overflow-y: hidden;
 }
 
 #section1{
     display: block;
+    animation: Sliding 1s ease-in-out;
 }
 
 #section2{
     display: none;
+    animation: Sliding 1s ease-in-out;
+
 }
 
 #section3{
     display: none;
+    animation: Sliding 1s ease-in-out;
+
 }
 
 #section4{
     display: none;
+    animation: Sliding 1s ease-in-out;
 }
 
 #section5{
     display: none;
+    animation: Sliding 1s ease-in-out;
 }
 
+@keyframes Sliding{
+    0%{
+        transform: translateX(+100%);
+    }
+    100%{
+        transform: translateX(0);
+        }
+}
 
 :root{
     --color-text:white;
