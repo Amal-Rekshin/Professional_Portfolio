@@ -467,6 +467,8 @@ section{
     background-color: var(--color-pri);
     border: none;
     color: var(--color-text);
+    margin-bottom: 30px;
+
 }
 
 .contactContent{
