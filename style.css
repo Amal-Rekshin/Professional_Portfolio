@@ -11,7 +11,10 @@ html{
     background-color: rgb(0, 0, 15);
     color: white;
     position: relative;
-    overflow-y: hidden;
+}
+
+html::-webkit-scrollbar{
+    visibility: hidden;
 }
 
 #section1{
