@@ -4,7 +4,7 @@ function sendEmail() {
     const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
 
-    const mailtoLink = `mailto:your-email@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + last + "\n\nMessage: " + message)}`;
+    const mailtoLink = `mailto:antonyamalrekshin@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + last + "\n\nMessage: " + message)}`;
 
     window.location.href = mailtoLink;
     return false;
